@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4°Questão</title>
+    <style>
+        h3{
+            font-size: 20px;
+            text-align: center;
+        }
+        label{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <form action="exer4.php" method="get">
+            <h3>Cadastrar Usuario</h3>
+            <label for="nom">Digite seu Nome Completo</label>
+            <input type="text" name="nom" id="nom">
+            <br/>
+           <label for="ema">Digite seu E-mail</label>
+           <input type="email" name="ema" id="ema">
+           <br/>
+           <label for="dat">Digite sua Data de Nascimento</label>
+           <input type="date" name="dat" id="dat">
+           <fieldset>
+            <label for="sex">Selecione o seu Sexo</label>
+            <input type="radio" name="sex" id="max" value="1">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sex" id="fem" value="2">
+            <label for="fem">Feminino</label>
+           </fieldset>
+
+           <label for="esta">Selecione seu Estado Civil</label>
+           <select name="esta" id="esta">
+            <option value="solt">Solteiro</option>
+            <option value="cas">Casado</option>
+            <option value="sep">Separado</option>
+            <option value="div">Divorciado</option>
+            <option value="viu">Viuvo</option>
+           </select>
+           <br/>
+           <label for="prof">Qual é sua Profissão</label>
+           <input type="text" name="prof" id="prof">
+
+            <br/>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
