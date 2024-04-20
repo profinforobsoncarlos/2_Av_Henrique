@@ -19,7 +19,7 @@
 <div>
     <?php
     $valor_rs = $_GET["val"];
-    $valor_dol = ($valor_rs/5.20);
+    $valor_dol = ($valor_rs/5.20); /*Não preciva colocar entre parenteses */
     echo "Você informou R$".number_format($valor_rs,2,",",".")."<br/>";
     echo "Esse valor em Dólar é"."<span> US$".number_format($valor_dol,2,",",".")."</span>";
     

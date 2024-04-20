@@ -24,7 +24,7 @@
     if ($idade <=11) {
         $sit = "Criança";
     }
-    elseif ($idade <=14) {
+    elseif ($idade <=14) { /*apesar de parecer certo, mas aqui precisava especificar de 11 anos até 14 anos, usando 02 testes lógicos. */
         $sit = "Adolescente";
     }
     elseif ($idade <=18) {
